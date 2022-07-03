@@ -23,7 +23,10 @@ class ProductsViewController: UIViewController {
         layout.itemSize = CGSize(width: (view.frame.size.width / 2) - 1, height: (view.frame.size.width / 2) - 1)
 
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        collectionView.register(ProductCollectionViewCell.self, forCellWithReuseIdentifier: ProductCollectionViewCell.reuseIdentifier)
+        collectionView.register(
+            ProductCollectionViewCell.self,
+            forCellWithReuseIdentifier: ProductCollectionViewCell.reuseIdentifier
+        )
         return collectionView
     }()
 
