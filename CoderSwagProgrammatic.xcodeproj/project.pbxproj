@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB34B33C2872397E00C6B3D2 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34B33B2872397E00C6B3D2 /* ProductsViewController.swift */; };
+		AB34B34028723C7E00C6B3D2 /* ProductsViewController+UICollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34B33F28723C7E00C6B3D2 /* ProductsViewController+UICollectionViewDataSource.swift */; };
+		AB34B34228723CC900C6B3D2 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34B34128723CC900C6B3D2 /* ProductCollectionViewCell.swift */; };
 		AB63D71E2870EBA500DE142A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB63D71D2870EBA500DE142A /* AppDelegate.swift */; };
 		AB63D7202870EBA500DE142A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB63D71F2870EBA500DE142A /* SceneDelegate.swift */; };
 		AB63D7222870EBA500DE142A /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB63D7212870EBA500DE142A /* CategoryViewController.swift */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB34B33B2872397E00C6B3D2 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		AB34B33F28723C7E00C6B3D2 /* ProductsViewController+UICollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductsViewController+UICollectionViewDataSource.swift"; sourceTree = "<group>"; };
+		AB34B34128723CC900C6B3D2 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		AB63D71A2870EBA500DE142A /* CoderSwagProgrammatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoderSwagProgrammatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB63D71D2870EBA500DE142A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB63D71F2870EBA500DE142A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				AB63D7212870EBA500DE142A /* CategoryViewController.swift */,
+				AB34B33B2872397E00C6B3D2 /* ProductsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 				AB63D73C2870FC2100DE142A /* UILabel+style.swift */,
 				ABC46A962871174F00AC8D7D /* CategoryViewController+UITableViewDataSource.swift */,
 				ABC46A982871179700AC8D7D /* CategoryViewController+UITableViewDelegate.swift */,
+				AB34B33F28723C7E00C6B3D2 /* ProductsViewController+UICollectionViewDataSource.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -135,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				AB63D7422870FF6200DE142A /* CategoryTableViewCell.swift */,
+				AB34B34128723CC900C6B3D2 /* ProductCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -237,10 +246,13 @@
 				AB63D73A2870FA5200DE142A /* TextStyling.swift in Sources */,
 				AB63D7202870EBA500DE142A /* SceneDelegate.swift in Sources */,
 				AB63D7432870FF6200DE142A /* CategoryTableViewCell.swift in Sources */,
+				AB34B34228723CC900C6B3D2 /* ProductCollectionViewCell.swift in Sources */,
+				AB34B33C2872397E00C6B3D2 /* ProductsViewController.swift in Sources */,
 				AB63D73D2870FC2100DE142A /* UILabel+style.swift in Sources */,
 				ABC46A972871174F00AC8D7D /* CategoryViewController+UITableViewDataSource.swift in Sources */,
 				AB63D7332870ED9200DE142A /* Category.swift in Sources */,
 				ABC46A992871179700AC8D7D /* CategoryViewController+UITableViewDelegate.swift in Sources */,
+				AB34B34028723C7E00C6B3D2 /* ProductsViewController+UICollectionViewDataSource.swift in Sources */,
 				AB63D7402870FD7100DE142A /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

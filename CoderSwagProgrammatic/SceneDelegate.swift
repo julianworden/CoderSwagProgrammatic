@@ -5,7 +5,7 @@
 //  Created by Julian Worden on 7/2/22.
 //
 
-// swiftLint:disable all
+// swiftlint:disable all
 
 import UIKit
 
@@ -25,6 +25,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         scrollEdgeAppearance.backgroundColor = UIColor(red: 87/255, green: 39/255, blue: 40/255, alpha: 1.0)
         scrollEdgeAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
         navigationController.navigationBar.scrollEdgeAppearance = scrollEdgeAppearance
+        navigationController.navigationBar.tintColor = .white
 
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()

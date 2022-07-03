@@ -14,11 +14,13 @@ extension CategoryViewController: UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let categories = dataService.getCategories()
+
         if let cell = tableView.dequeueReusableCell(
             withIdentifier: "CategoryTableViewCell",
             for: indexPath
         ) as? CategoryTableViewCell {
-            cell.updateUi(with: dataService.getCategories()[indexPath.row])
+            cell.updateUi(with: categories[indexPath.row])
             return cell
         } else {
             return UITableViewCell()

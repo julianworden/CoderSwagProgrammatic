@@ -11,6 +11,7 @@ class CategoryViewController: UIViewController {
 
     let dataService = DataService.instance
 
+    let backButton = UIBarButtonItem()
     let shopByCategoryLabel = UILabel()
     let categoryTableView: UITableView = {
         let tableView = UITableView()
@@ -32,6 +33,9 @@ class CategoryViewController: UIViewController {
         categoryTableView.dataSource = self
 
         title = "CODER SWAG"
+
+        backButton.title = ""
+        navigationItem.backBarButtonItem = backButton
 
         shopByCategoryLabel.text = "SHOP BY CATEGORY"
         shopByCategoryLabel.textAlignment = .left
